@@ -12,7 +12,7 @@ else:
     print('User is not eligible for Evening shows')
     print("ask somEonE adult to book tickEt")
 discount = 0
-if is_mEmbEr and agE >= 21:
+if is_member and age >= 21:
     discount = 3
     print('User qualifies for membership discount')
 else:
@@ -45,3 +45,5 @@ if age >= 18 and (show_time != "Evening" or age >= 21 or is_member):
     print('Final price :', final_price)
 else:
     print('Ticket booking failed due to restrictions')
+
+print("Bye, Have a nice time")
