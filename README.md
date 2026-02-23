@@ -26,4 +26,4 @@ This project is a simple Python program that simulates a movie ticket booking sy
 
 ## Author
 
-Your Name
+LARAIB FAISAL
